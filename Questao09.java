@@ -9,7 +9,7 @@ public class Questao09 {
 		Scanner ler = new Scanner(System.in);
 		
 		double numero1, numero2;
-		double totalPotencia = 2; 
+		double totalPotencia = 1; 
 		int opcao;
 		
 		
@@ -49,7 +49,7 @@ public class Questao09 {
 				}
 			
 			case 4: 
-				for(int i = 1; i< numero2; i++) {
+				for(int i = 1 i<= numero2; i++) { 
 					totalPotencia = totalPotencia * numero1;
 				}
 				System.out.printf("%f ^ %f = %f", numero1, numero2, totalPotencia);
