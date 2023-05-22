@@ -27,7 +27,7 @@ public class Questao09 {
 			
 			System.out.printf("\nDigite 1 para somar");
 			System.out.printf("\nDigite 2 para multiplicar");
-			System.out.printf("\nDigite 3 para multiplicar");
+			System.out.printf("\nDigite 3 para dividir");
 			System.out.printf("\nDigite 4 para potencializar");
 			System.out.printf("\nOpcao escolhida: ");
 			
@@ -47,7 +47,7 @@ public class Questao09 {
 				else {
 					System.out.printf("%f / %f = %f", numero1, numero2, numero1 / numero2);
 				}
-			
+			break;
 			case 4: 
 				for(int i = 1 i<= numero2; i++) { 
 					totalPotencia = totalPotencia * numero1;
